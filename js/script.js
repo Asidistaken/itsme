@@ -202,9 +202,9 @@ function initPortfolio() {
                 codeBlock.innerHTML = '';
                 
                 if (file.language === 'image') {
-                    loadImage('../res/' + file.path, codeBlock);
+                    loadImage('res/' + file.path, codeBlock);
                 } else {
-                    loadCodeFile('../res/' + file.path, file.language, codeBlock);
+                    loadCodeFile('res/' + file.path, file.language, codeBlock);
                 }
             });
         }
